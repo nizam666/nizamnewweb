@@ -24,26 +24,27 @@ const values = [
   },
 ];
 
+
 const team = [
   {
-    name: "Alex Thompson",
-    role: "CEO & Founder",
-    description: "15+ years in IT consulting and business strategy",
+    name: "Nizamudeen Mohammed",
+    role: "Founder & CEO",
+    description: "10+ years of experience in IT solutions and business technology strategy.",
   },
   {
-    name: "Sarah Martinez",
-    role: "CTO",
-    description: "Expert in network engineering and cybersecurity",
+    name: "Technical Lead",
+    role: "Head of Development",
+    description: "Expert in web development, cloud infrastructure, and modern frameworks.",
   },
   {
-    name: "David Kim",
-    role: "Lead Developer",
-    description: "Full-stack developer specializing in modern web technologies",
+    name: "Security Specialist",
+    role: "Cybersecurity Head",
+    description: "Certified cybersecurity professional protecting businesses from digital threats.",
   },
   {
-    name: "Emily Chen",
-    role: "AI Solutions Director",
-    description: "PhD in Machine Learning with 10+ years in AI development",
+    name: "Network Engineer",
+    role: "Infrastructure Lead",
+    description: "Specialist in network design, setup, and enterprise-level IT infrastructure.",
   },
 ];
 
