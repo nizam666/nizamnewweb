@@ -1,7 +1,5 @@
 
-  # Website for Tech Services
-
-  This is a code bundle for Website for Tech Services. The original project is available at https://www.figma.com/design/bhnOZHnPPYZ97O7VZ6Vbqx/Website-for-Tech-Services.
+  # NizamComputers
 
   ## Running the code
 
