@@ -31,21 +31,6 @@ const team = [
     role: "Founder & CEO",
     description: "10+ years of experience in IT solutions and business technology strategy.",
   },
-  {
-    name: "Technical Lead",
-    role: "Head of Development",
-    description: "Expert in web development, cloud infrastructure, and modern frameworks.",
-  },
-  {
-    name: "Security Specialist",
-    role: "Cybersecurity Head",
-    description: "Certified cybersecurity professional protecting businesses from digital threats.",
-  },
-  {
-    name: "Network Engineer",
-    role: "Infrastructure Lead",
-    description: "Specialist in network design, setup, and enterprise-level IT infrastructure.",
-  },
 ];
 
 const milestones = [
@@ -236,9 +221,9 @@ export function About() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="flex justify-center">
             {team.map((member, index) => (
-              <div key={index} className="text-center">
+              <div key={index} className="text-center max-w-sm">
                 <div className="w-32 h-32 rounded-full bg-gradient-to-br from-blue-400 to-indigo-600 mx-auto mb-4"></div>
                 <h3 className="text-xl font-semibold mb-1">{member.name}</h3>
                 <div className="text-blue-600 font-medium mb-2">{member.role}</div>
